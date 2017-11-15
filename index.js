@@ -15,7 +15,7 @@ client.on("message", (message) => {
   if (message.content.startsWith("!" + "regras")) {
     message.channel.sendMessage("Para ser atendido pelos Oprimions, sua denuncia deverá ter os seguintes itens: Nick, Trapper, Data e Provas. Entendido mortal ?")
   }
-  if (message.content.startsWith("ola" + "Amon")) {
+  if (message.content.startsWith("!" + "amon")) {
     message.channel.sendMessage("Saudações mortal, sou Amon, o demonio responsável pelas denúncias. Não tenha piedade, vamos punir os culpados.")
   }
 });
