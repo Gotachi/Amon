@@ -4,6 +4,8 @@ const prefix = "!"
 client.on("ready", () => {
   console.log(`Em funcionamento!!!! total de ${client.channels.size} Canais, em ${client.guilds.size} servers, um total de ${client.users.size} usuarios.`)
 })
+
+client.login("MzgwMTk3NzQzODE1MTYzOTA0.DO4C0Q.ZbbkHfrBD5z78vQ13pea-gqztZU");
  
 client.on("message", (message) => {
   if (message.author.bot) return;
@@ -18,4 +20,4 @@ client.on("message", (message) => {
   }
 });
 
-client.login(process.env.MzgwMTk3NzQzODE1MTYzOTA0.DO4C0Q.ZbbkHfrBD5z78vQ13pea-gqztZU);
+client.login(process.env.BOT_TOKEN);
